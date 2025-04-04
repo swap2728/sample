@@ -1,0 +1,29 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-28 21:51 India Standard Time
+Nmap scan report for 127.0.0.1
+Host is up (0.00088s latency).
+Not shown: 65516 closed tcp ports (reset)
+PORT      STATE    SERVICE         VERSION
+135/tcp   open     msrpc           Microsoft Windows RPC
+137/tcp   filtered netbios-ns
+445/tcp   open     microsoft-ds?
+902/tcp   open     ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open     vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+2015/tcp  open     http            Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+5040/tcp  open     unknown
+5354/tcp  open     mdnsresponder?
+6646/tcp  open     tcpwrapped
+8000/tcp  open     http            WSGIServer 0.2 (Python 3.12.6)
+|_http-server-header: WSGIServer/0.2 CPython/3.12.6
+27015/tcp open     unknown
+27017/tcp open     mongodb         MongoDB 6.1 or later
+36622/tcp open     unknown
+49664/tcp open     msrpc           Microsoft Windows RPC
+49665/tcp open     msrpc           Microsoft Windows RPC
+49668/tcp open     msrpc           Microsoft Windows RPC
+49669/tcp open     msrpc           Microsoft Windows RPC
+49672/tcp open     msrpc           Microsoft Windows RPC
+49704/tcp open     msrpc           Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 99.53 seconds
