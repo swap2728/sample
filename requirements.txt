@@ -205,7 +205,6 @@ pyparsing
 PyPDF2
 pypdfium2
 pyperclip
-pypiwin32  # REMOVED
 PySocks
 pytesseract
 pytest
@@ -219,7 +218,6 @@ python-magic
 python-nmap
 python-whois
 pyttsx4
-pytweening
 pytz
 pyuseragents
 PyYAML
