@@ -1,4 +1,4 @@
-﻿absl-py
+absl-py
 aiohappyeyeballs
 aiohttp
 aiohttp-retry
@@ -35,7 +35,6 @@ click
 cloudpathlib
 colorama
 comm
-comtypes
 confection
 constantly
 contourpy
@@ -137,7 +136,6 @@ mccabe
 mdurl
 ml-dtypes
 more-itertools
-MouseInfo
 mpmath
 msgpack
 multidict
@@ -186,7 +184,6 @@ pyarrow
 pyasn1
 pyasn1_modules
 PyAudio
-PyAutoGUI
 pyclipper
 pycodestyle
 pycparser
@@ -198,11 +195,9 @@ PyDispatcher
 pydub
 pyflakes
 pygame
-PyGetWindow
 Pygments
 PyJWT
 pymongo
-PyMsgBox
 PyMuPDF
 PyNaCl
 pyOpenSSL
@@ -210,10 +205,7 @@ pyparsing
 PyPDF2
 pypdfium2
 pyperclip
-pypiwin32
-PyRect
-PyScreeze
-pyshark
+pypiwin32  # REMOVED
 PySocks
 pytesseract
 pytest
@@ -226,7 +218,7 @@ python-googlesearch
 python-magic
 python-nmap
 python-whois
-pyttsx3
+pyttsx4
 pytweening
 pytz
 pyuseragents
@@ -322,7 +314,6 @@ Werkzeug
 whisper
 whitenoise
 widgetsnbextension
-win32_setctime
 wrapt
 wsproto
 xgboost
@@ -330,4 +321,3 @@ xmod
 xyzservices
 yarl
 zope.interface
-gunicorn
